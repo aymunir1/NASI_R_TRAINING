@@ -3,7 +3,8 @@
 This repository contains datasets, and R scripts developed as a result of the knowledge and practical skills I gained from the **NextGen Antimicrobial Stewardship Initiative Training**. 
 
 
-## A DATA ANALYSIS 
+#######################################  SECTION A    #################################################
+
 
 ### 1. [Data_Cleaning_and_Analysis.R](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
 **Description:**  
@@ -38,9 +39,25 @@ Performs both descriptive and inferential statistical analyses using a student p
    - Simple and Multiple Linear Regression  
 5. Graphical Analysis  
 
-**Output:**  
-- Statistical summaries and visualizations illustrating relationships between demographic and academic performance variables.  
 
-**Interpretation Guidelines:**  
-- *p-value > 0.05*: Fail to reject the null hypothesis (no significant difference)  
+
+
+
+#####################################  SECTION B   ###############################################
+
+
+
+
+# BIOM: Microbial Diversity Assessment in R
+
+This R script demonstrates the workflow for importing, cleaning, and analyzing microbial community data derived from **metagenomic analysis outputs**. The BIOM file used in this script was **generated and converted using the UseGalaxy platform** after completing taxonomic classification with **Kraken**. The analysis focuses on exploring microbial diversity using the `phyloseq` and `tidyverse` packages.
+
+##  Key Features
+- Import and inspect BIOM files exported from UseGalaxy  
+- Clean and rename taxonomic tables  
+- Explore taxonomic distributions (e.g., abundance of *Proteobacteria*)  
+- Compute **alpha diversity** (Shannon, Observed, Chao1 indices)  
+- Visualize richness and diversity using `plot_richness()`  
+- Perform **beta diversity** analysis and NMDS ordination (Bray–Curtis distance)
+p-value > 0.05*: Fail to reject the null hypothesis (no significant difference)  
 - *p-value < 0.05*: Reject the null hypothesis (significant difference)  
