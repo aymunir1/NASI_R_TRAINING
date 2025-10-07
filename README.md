@@ -9,13 +9,12 @@
    academic performance, and metagenomic studies—some of which were processed 
    using tools like BV-BRC and UseGalaxy.
 
-
 ##  Repository Contents
 - **Data Analysis Scripts:** Demonstrate data importation, cleaning, exploratory, descriptive, and inferential statistical analysis using packages like `tidyverse`, `dplyr`, and `ggplot2`.  
 - **Metagenmic Scripts:** Apply `phyloseq` and other R packages for microbial community and antimicrobial resistance (AMR) gene analysis, using datasets generated from **Kraken BIOM** and **ABRicate (BV-BRC)** outputs.  
 - **Datasets:** Include `.csv`, `.biom2`, and `.tabular` files used for the analyses, provided for educational and reproducibility purposes.
 
-## 🎯 Purpose
+##  Purpose
 This repository serves as an educational and research resource, reflecting the analytical and bioinformatics skills gained during the NASI R training. It provides a comprehensive framework for students, researchers, and professionals interested in:
 - Performing statistical and inferential analysis in R  
 - Visualizing data for public health and academic insights  
@@ -24,7 +23,7 @@ This repository serves as an educational and research resource, reflecting the a
 
 ######################################  DATA ANALYSIS    #################################################
 
- 1. [Data_Cleaning_and_Analysis.R](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
+ 1. DataC leaning and Analysis.R [R Script] (https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
 **Description:**  
 Demonstrates data importation, cleaning, transformation, and exploratory analysis using a COVID-19 dataset. It provides step-by-step examples of R operations, variable management, and descriptive statistics to prepare data for inferential analysis and visualization.  
 
