@@ -1,11 +1,9 @@
 
 ## Overview  
-This repository contains two R scripts developed as a result of the knowledge and practical skills I gained from the **NextGen Antimicrobial Stewardship Initiative Training**.  
-
-The scripts demonstrate **data cleaning**, **transformation**, **inferential statistical analysis**, and **data visualization** using the `tidyverse`, `dplyr`, and `ggplot2` packages. 
+This repository contains datasets, and R scripts developed as a result of the knowledge and practical skills I gained from the **NextGen Antimicrobial Stewardship Initiative Training**. 
 
 
-## Repository Contents  
+## A DATA ANALYSIS 
 
 ### 1. [Data_Cleaning_and_Analysis.R](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
 **Description:**  
