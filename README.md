@@ -12,7 +12,7 @@
 
 ##  Repository Contents
 - **Data Analysis Scripts:** Demonstrate data importation, cleaning, exploratory, descriptive, and inferential statistical analysis using packages like `tidyverse`, `dplyr`, and `ggplot2`.  
-- **Bioinformatics Scripts:** Apply `phyloseq` and other R packages for microbial community and antimicrobial resistance (AMR) gene analysis, using datasets generated from **Kraken BIOM** and **ABRicate (BV-BRC)** outputs.  
+- **Metagenmic Scripts:** Apply `phyloseq` and other R packages for microbial community and antimicrobial resistance (AMR) gene analysis, using datasets generated from **Kraken BIOM** and **ABRicate (BV-BRC)** outputs.  
 - **Datasets:** Include `.csv`, `.biom2`, and `.tabular` files used for the analyses, provided for educational and reproducibility purposes.
 
 ## 🎯 Purpose
@@ -22,14 +22,7 @@ This repository serves as an educational and research resource, reflecting the a
 - Conducting metagenomic data analysis and AMR gene visualization  
 
 
-
-
-
-
-
-
-
-######################################3  SECTION A    #################################################
+######################################  DATA ANALYSIS    #################################################
 
 
 ### 1. [Data_Cleaning_and_Analysis.R](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
@@ -69,12 +62,12 @@ Performs both descriptive and inferential statistical analyses using a student p
 
 
 
-#####################################  SECTION B   ###############################################
+#####################################  METAGENOMIC ANALYSIS   ###############################################
 
 
 
 
-# Microbial Diversity [R Script] ()
+# Microbial Diversity [R Script](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Metagenome%20Biom.R)
 
 This R script demonstrates the workflow for importing, cleaning, and analyzing microbial community data derived from **metagenomic analysis outputs**. The BIOM file used in this script was **generated and converted using the UseGalaxy platform** after completing taxonomic classification with **Kraken**. The analysis focuses on exploring microbial diversity using the `phyloseq` and `tidyverse` packages.
 
@@ -89,7 +82,7 @@ p-value > 0.05*: Fail to reject the null hypothesis (no significant difference)
 
 
 
-# Visualization of Antimicrobial Resistance Genes [R Script] ()
+# Visualization of Antimicrobial Resistance Genes [R Script](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Resistance%20genes.R)
 
 This R script provides a workflow for **visualizing antimicrobial resistance (AMR) gene profiles** obtained from **ABRicate** results. The input file, `abricate.tabular`, was **downloaded from the BV-BRC (Bacterial and Viral Bioinformatics Resource Center)** after performing the required **metagenomic resistance gene analysis**, and then imported into R for visualization and interpretation.
 
