@@ -1,13 +1,13 @@
 # NASI R Training – Data Analysis and Bioinformatics Projects
 
-#   This repository contains a collection of R scripts and datasets 
-#   during the NextgGen Antimicrobial Stewardship Initiative Training 
-#   on Data Analysis with R. It highlights the practical application of R in 
-#   both statistical data analysis and bioinformatics, integrating key analytical 
-#   processes such as data cleaning, transformation, visualization, and inferential 
-#   statistics. The repository features real-world datasets from public health, 
-#   academic performance, and metagenomic studies—some of which were processed 
-#   using tools like BV-BRC and UseGalaxy.
+   This repository contains a collection of R scripts and datasets 
+   during the NextgGen Antimicrobial Stewardship Initiative Training 
+   on Data Analysis with R. It highlights the practical application of R in 
+   both statistical data analysis and bioinformatics, integrating key analytical 
+   processes such as data cleaning, transformation, visualization, and inferential 
+   statistics. The repository features real-world datasets from public health, 
+   academic performance, and metagenomic studies—some of which were processed 
+   using tools like BV-BRC and UseGalaxy.
 
 
 ##  Repository Contents
