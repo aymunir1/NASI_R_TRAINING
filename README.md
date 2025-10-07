@@ -74,7 +74,7 @@ Performs both descriptive and inferential statistical analyses using a student p
 
 
 
-# BIOM: Microbial Diversity Assessment in R
+# Microbial Diversity [R Script] ()
 
 This R script demonstrates the workflow for importing, cleaning, and analyzing microbial community data derived from **metagenomic analysis outputs**. The BIOM file used in this script was **generated and converted using the UseGalaxy platform** after completing taxonomic classification with **Kraken**. The analysis focuses on exploring microbial diversity using the `phyloseq` and `tidyverse` packages.
 
@@ -89,19 +89,9 @@ p-value > 0.05*: Fail to reject the null hypothesis (no significant difference)
 
 
 
-
-
-
-# Visualization of Antimicrobial Resistance Genes from ABRicate Output
+# Visualization of Antimicrobial Resistance Genes [R Script] ()
 
 This R script provides a workflow for **visualizing antimicrobial resistance (AMR) gene profiles** obtained from **ABRicate** results. The input file, `abricate.tabular`, was **downloaded from the BV-BRC (Bacterial and Viral Bioinformatics Resource Center)** after performing the required **metagenomic resistance gene analysis**, and then imported into R for visualization and interpretation.
 
 ## 🧬 Overview
 The script utilizes **tidyverse** for data manipulation and **ggplot2** for graphical representation. It counts the occurrence of resistance genes and visualizes their distribution through a horizontal bar plot — making it easy to identify the most frequent AMR genes in the dataset.
-
-## 🧩 Required Package
-Ensure the following package is installed and loaded before running the script:
-```r
-pacman::p_load(tidyverse)
-
-- *p-value < 0.05*: Reject the null hypothesis (significant difference)  
