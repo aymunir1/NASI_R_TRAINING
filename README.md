@@ -1,9 +1,35 @@
+# NASI R Training – Data Analysis and Bioinformatics Projects
 
-## Overview  
-This repository contains datasets, and R scripts developed as a result of the knowledge and practical skills I gained from the **NextGen Antimicrobial Stewardship Initiative Training**. 
+#   This repository contains a collection of R scripts and datasets 
+#   during the NextgGen Antimicrobial Stewardship Initiative Training 
+#   on Data Analysis with R. It highlights the practical application of R in 
+#   both statistical data analysis and bioinformatics, integrating key analytical 
+#   processes such as data cleaning, transformation, visualization, and inferential 
+#   statistics. The repository features real-world datasets from public health, 
+#   academic performance, and metagenomic studies—some of which were processed 
+#   using tools like BV-BRC and UseGalaxy.
 
 
-#######################################  SECTION A    #################################################
+##  Repository Contents
+- **Data Analysis Scripts:** Demonstrate data importation, cleaning, exploratory, descriptive, and inferential statistical analysis using packages like `tidyverse`, `dplyr`, and `ggplot2`.  
+- **Bioinformatics Scripts:** Apply `phyloseq` and other R packages for microbial community and antimicrobial resistance (AMR) gene analysis, using datasets generated from **Kraken BIOM** and **ABRicate (BV-BRC)** outputs.  
+- **Datasets:** Include `.csv`, `.biom2`, and `.tabular` files used for the analyses, provided for educational and reproducibility purposes.
+
+## 🎯 Purpose
+This repository serves as an educational and research resource, reflecting the analytical and bioinformatics skills gained during the NASI R training. It provides a comprehensive framework for students, researchers, and professionals interested in:
+- Performing statistical and inferential analysis in R  
+- Visualizing data for public health and academic insights  
+- Conducting metagenomic data analysis and AMR gene visualization  
+
+
+
+
+
+
+
+
+
+######################################3  SECTION A    #################################################
 
 
 ### 1. [Data_Cleaning_and_Analysis.R](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
@@ -59,5 +85,23 @@ This R script demonstrates the workflow for importing, cleaning, and analyzing m
 - Compute **alpha diversity** (Shannon, Observed, Chao1 indices)  
 - Visualize richness and diversity using `plot_richness()`  
 - Perform **beta diversity** analysis and NMDS ordination (Bray–Curtis distance)
-p-value > 0.05*: Fail to reject the null hypothesis (no significant difference)  
+p-value > 0.05*: Fail to reject the null hypothesis (no significant difference)
+
+
+
+
+
+
+# Visualization of Antimicrobial Resistance Genes from ABRicate Output
+
+This R script provides a workflow for **visualizing antimicrobial resistance (AMR) gene profiles** obtained from **ABRicate** results. The input file, `abricate.tabular`, was **downloaded from the BV-BRC (Bacterial and Viral Bioinformatics Resource Center)** after performing the required **metagenomic resistance gene analysis**, and then imported into R for visualization and interpretation.
+
+## 🧬 Overview
+The script utilizes **tidyverse** for data manipulation and **ggplot2** for graphical representation. It counts the occurrence of resistance genes and visualizes their distribution through a horizontal bar plot — making it easy to identify the most frequent AMR genes in the dataset.
+
+## 🧩 Required Package
+Ensure the following package is installed and loaded before running the script:
+```r
+pacman::p_load(tidyverse)
+
 - *p-value < 0.05*: Reject the null hypothesis (significant difference)  
