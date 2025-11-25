@@ -21,7 +21,7 @@ This repository serves as an educational and research resource, reflecting the a
 - Conducting metagenomic data analysis and AMR gene visualization  
 
 
-######################################  DATA ANALYSIS    #################################################
+#######################  DATA ANALYSIS    #######################
 
  1. DataC leaning and Analysis.R [R Script] (https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
 **Description:**  
@@ -54,9 +54,10 @@ Performs both descriptive and inferential statistical analyses using a student p
    - Independent Sample T-test  
    - ANOVA  
    - Simple and Multiple Linear Regression
-   - 
-
-#####################################  METAGENOMIC ANALYSIS   ####################################
+  --------
+##################  MACHINE LEARNING  ####################
+-------
+##################  METAGENOMIC ANALYSIS  ####################
 
 
 Microbial Diversity [R Script](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Metagenome%20Biom.R)
