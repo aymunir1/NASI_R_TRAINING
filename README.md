@@ -23,7 +23,7 @@ This repository serves as an educational and research resource, reflecting the a
 
 #######################  DATA ANALYSIS    #######################
 
- 1. DataC leaning and Analysis.R [R Script] (https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
+ 1. DataC leaning and Analysis.R [R Script](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Data_Cleaning_and_Analysis.R)  
 **Description:**  
 Demonstrates data importation, cleaning, transformation, and exploratory analysis using a COVID-19 dataset. It provides step-by-step examples of R operations, variable management, and descriptive statistics to prepare data for inferential analysis and visualization.  
 
@@ -40,7 +40,8 @@ Demonstrates data importation, cleaning, transformation, and exploratory analysi
 **Dependencies:**  
 `tidyverse`, `dplyr`, `ggplot2`  
 
- 2. Descriptive and Inferential Analysis [R Scrip](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Descriptive_and_Inferential_Analysis.R)  
+ 2. Descriptive and Inferential Analysis [R Script](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Descriptive_and_Inferential_Analysis.R)
+    
 **Description:**  
 Performs both descriptive and inferential statistical analyses using a student performance dataset (`Students_Grading_Dataset.csv`). The script includes hypothesis testing and visualization using `ggplot2`.  
 
@@ -54,9 +55,11 @@ Performs both descriptive and inferential statistical analyses using a student p
    - Independent Sample T-test  
    - ANOVA  
    - Simple and Multiple Linear Regression
-  --------
+  
 ##################  MACHINE LEARNING  ####################
--------
+[R Script](https://github.com/aymunir1/NASI_R_TRAINING/blob/main/Machine%20learning.R)
+
+
 ##################  METAGENOMIC ANALYSIS  ####################
 
 
